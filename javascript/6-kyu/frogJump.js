@@ -1,6 +1,6 @@
 function solution(a) {
   const totalSum = a.reduce((sum, num) => sum + num, 0);
-  if (totalSum === 0) return -1;
+  if (totalSum === 0) return -1; // TODO: check if this is necessary
   if (a.length === 1 && a[0] !== 0) return 1;
 
   let numberOfJumps = 0;
